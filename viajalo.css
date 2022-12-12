@@ -1,0 +1,307 @@
+body{
+    background-image:url(../viajala/imagen/pais.jpg);
+    background-size: cover;
+    position: relative;
+   min-height: 100vh;
+   display: grid;
+   place-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+ margin: -2.3em 0 7em; 
+}
+h1 {
+  text-align: center;
+}
+
+.main {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+form {
+  text-align: center;
+  width: 90%;
+  background-color: #efefef;
+  padding: 20px;
+  color: rgb(0, 0, 0);
+  border-radius: 20px;
+}
+form input::placeholder {
+  width: 15em;
+  margin: 3px;
+  height: 2em;
+  color: #6c757d;
+}
+form .btn {
+  margin: 2em 1em;
+  width: 60%;
+  height: 40px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 2px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+.icons {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1em;
+
+}
+.fas {
+  font-size: 2.5em;  
+  border-radius: 50%;
+  padding: 40px;
+
+}
+.fa-plane {
+  color: #2a96f3;
+}
+.fa-wallet {
+  color: #a96d65;
+}
+.fa-money-bill-wave-alt{
+  color: #42a3b8;
+}
+
+.container-data {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -1em;
+}
+
+.container-data h6 {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0cm;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(to rigth,hsl(26, 82%, 65%));
+}
+
+form {
+ display: flex;
+ flex-direction: column;
+ background-color:#efefef;
+ text-align: center;
+ padding: 20px 25px;
+ box-shadow: #a96d65;
+}
+
+form.title {
+   color:#6c757d;
+   font-size: 35px;
+   font-weight: 800;
+   margin-bottom: 30px;
+}
+
+form label {
+  margin-bottom: 35px;
+}
+
+form label .fa-solid {
+  font-size: 20px;
+  color:#a96d65;
+  margin-right: 10px;
+}
+
+form label input{
+  outline:none;
+  border: none;
+  color:#000;
+  border-bottom: solid 1px #a96d65;
+  padding: 0 5px;
+  font-size: 18px;
+}
+
+form label input::placeholder{
+    color: #000;
+ }
+ 
+ form link {
+  color: #000;
+  margin-bottom: 15px;
+ }
+
+ form button {
+  color: #a96d65;
+  border: none;
+  background:linear-gradient(to right,rgb(229, 129, 47), hsl(19, 89%, 57%));
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 20px;
+ }
+
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box ;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+body{
+  background-image: url(./imagen/pais.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center;
+  background-attachment:fixed;
+}
+
+main{
+  width: 100%;
+  padding: 20px ;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.contenedor__todo{
+width: 100%;
+max-width: 800px;
+margin: auto;
+position: relative;
+
+}
+
+.caja__trasera{
+  width: 100%;
+  height: 500px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  backdrop-filter: rgb(222, 92, 11);
+  background-color: #ecd017;
+}
+
+.caja__trasera div{
+  margin: 100px;
+  color: aliceblue;
+  transition: all 500ms;
+}
+
+.caja__trasera div p, 
+.caja__trasera div button{
+  margin-top: 30px;
+}
+
+.caja__trasera div h3{
+  font-weight: 400;
+  font-size: 26px;
+}
+
+.caja__trasera button {
+  padding: 10px 40px;
+  border:2px solid hsl(24, 85%, 51%) ;
+  background: transparent;
+  font-size: 14px;
+  font-weight: 600;
+  cursor:pointer ;
+  color:aliceblue;
+  outline: none;
+  transform: all 300ms;
+}
+
+.caja__trasera button:hover{
+  background: rgb(243, 234, 234);
+  color:aqua;
+}
+
+.contenedor__login-registrer{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 300px;
+  position: relative;
+  top: -185px;
+  letter-spacing: 10px;
+
+  transition: left 500ms cubic-bezier(0.175, 0.);
+}
+
+.contenedor__login-registrer form{
+  width: 100%;
+  padding: 80px 20px;
+  background-color: aliceblue;
+  position: absolute;
+  border-radius: 20px;
+}
+
+.contenedor__login-registrer form imput{
+  width:100% ;
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  background-color: beige;
+  font-size: 16px;
+  outline: none;
+}
+
+.contenedor__login-registrer form button{
+  padding: 10px 40px;
+  margin-top: 40px;
+  border: none;
+  font-size: 14px;
+  background-color: coral;
+  color: darkkhaki;
+  cursor: pointer;
+  outline: none;
+}
+
+.formulario__login{
+  opacity: 1;
+  display: none;
+}
+
+.formulario__registrer{
+  display: none;
+}
+
+@media screen and (max-width: 850px){
+  main{
+     margin-top: 100px;
+}
+
+.caja__trasera{
+  width: 350px;
+  height: 300px;
+  margin: auto;
+  flex-direction: column;
+}
+
+.caja__trasera div{
+  margin: 8px;
+  position: absolute;
+}
+
+.contenedor__login-registrer{
+  top: -10px;
+  left: -5px;
+  margin: auto;
+}
+
+.contenedor__login-registrer form{
+  position: relative;
+
+}
+
+}
